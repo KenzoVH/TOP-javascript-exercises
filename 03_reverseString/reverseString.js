@@ -2,7 +2,7 @@ const reverseString = function(string) {
     let stringArray = string.split('');
     stringArray = stringArray.reverse();
     let output = stringArray.join();
-    output = output.replace(/,/g, "")
+    output = output.replace(/,/g, "");
     return output;
 };
 

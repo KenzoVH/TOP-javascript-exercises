@@ -8,7 +8,7 @@ const removeFromArray = function(array, toRemove1, toRemove2, toRemove3, toRemov
             item === toRemove3 ||
             item === toRemove4
             ) {
-                console.log(`Removed ${item}`)
+                console.log(`Removed ${item}`);
             } else {
                 return item;
             }
